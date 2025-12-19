@@ -3,46 +3,50 @@ body {
 	background-color: #f2f2f2;
 }
 
+/* Card */
 .card {
-	width: 360px;
+	width: 340px;
 	margin: 40px auto;
 	background-color: #ffffff;
 	border: 1px solid #ccc;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.card h3 {
-	font-size: 28px;
-	margin: 16px;
-}
-
-.card img {
-	width: 300px;
-	margin: 0 auto;
-	display: block;
-}
-
-.info {
+/* Sections */
+.section {
 	border: 1px solid #ccc;
-	margin: 16px;
-	padding: 12px;
+	margin: 10px;
+	padding: 10px;
 }
 
+/* Title */
+.title h3 {
+	margin: 0;
+	font-size: 28px;
+}
+
+/* Image */
+.image img {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Fact */
 .fact {
 	font-style: italic;
-	margin-bottom: 12px;
 }
 
-ul {
+/* List */
+.details-list {
 	list-style: none;
 	padding: 0;
-	margin: 0 0 12px 0;
+	margin: 10px 0;
 }
 
-li {
+.details-item {
 	margin-bottom: 6px;
 }
 
-li span {
+.label {
 	font-weight: bold;
 }
